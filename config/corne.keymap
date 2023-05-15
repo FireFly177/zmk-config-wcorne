@@ -86,7 +86,7 @@
             bindings = <
 &trans  &trans  &mkp LCLK    &kp UP  &mkp RCLK    &mwh SCROLL_UP      &mwh SCROLL_UP     &mkp LCLK  &mmv MOVE_UP     &mkp RCLK  &trans  &trans
 &trans  &trans   &kp LEFT  &kp DOWN  &kp RIGHT  &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans     &trans    &trans     &trans            &trans              &trans        &trans        &trans        &trans  &trans  &trans
+&trans  &trans     &trans    &trans     &trans            &trans              &mkp MCLK        &mkp MB4        &mkp MB5        &trans  &trans  &trans
                              &trans     &trans            &trans              &trans        &trans        &trans
             >;
         };
