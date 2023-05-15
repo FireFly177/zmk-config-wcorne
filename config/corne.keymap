@@ -17,6 +17,14 @@
 #define LAYER4  4
 #define LAYER5  5
 
+&mmv {
+    time-to-max-speed-ms = <500>;
+};
+
+&mwh {
+    acceleration-exponent=<1>;
+};
+
 / {
     behaviors {
         bhm: balanced_homerow_mods {
