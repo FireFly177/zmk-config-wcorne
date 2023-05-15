@@ -16,7 +16,6 @@
 #define LAYER5  5
 
 / {
-    {
         behaviors {
             bhm: balanced_homerow_mods {
                 compatible = "zmk,behavior-hold-tap";
