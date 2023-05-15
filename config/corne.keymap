@@ -30,6 +30,13 @@
                 <&kp>,
                 <&kp>;
         };
+        tdCaps: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_0";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
+        };
     };
 
     combos {
