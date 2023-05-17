@@ -18,13 +18,13 @@
 #define LAYER5  5
 
 &mmv {
-    time-to-max-speed-ms = <500>;
-    acceleration-exponent = <1>;
+    time-to-max-speed-ms = <250>;
+    acceleration-exponent = <2>;
 };
 
 &mwh {
-    time-to-max-speed-ms = <500>;
-    acceleration-exponent = <1>;
+    time-to-max-speed-ms = <250>;
+    acceleration-exponent = <2>;
 };
 
 / {
