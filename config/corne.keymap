@@ -25,6 +25,17 @@
     acceleration-exponent = <1>;
 };
 
+gqt: global-quick-tap {
+    compatible = "zmk,behavior-hold-tap";
+    label = "GLOBAL_QUICK_TAP";
+    #binding-cells = <2>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <140>;
+    global-quick-tap;
+    bindings = <&kp>, <&kp>;
+};
+
 / {
     behaviors {
         bhm: balanced_homerow_mods {
