@@ -25,8 +25,6 @@
     acceleration-exponent = <1>;
 };
 
-
-
 / {
     behaviors {
         gqt: global-quick-tap {
@@ -37,9 +35,10 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <140>;
             global-quick-tap;
-            bindings = <&kp>, <&kp>;
+            bindings =
+                <&kp>,
+                <&kp>;
         };
-        
         bhm: balanced_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
@@ -82,10 +81,10 @@
             //                    | GUI | LWR | SPC |       | ENT | RSE  | ALT |
 
             bindings = <
-&kp GRAVE        &kp Q        &kp W           &kp E                 &kp R      &kp T        &kp Y             &kp U         &kp I        &kp O           &kp P    &kp BSLH
-&kp LCTRL  &bhm LGUI A  &bhm LALT S    &bhm LCTRL D         &bhm LSHIFT F      &kp G        &kp H     &bhm LSHIFT J  &bhm LCTRL K  &bhm LALT L  &bhm LGUI SEMI     &kp SQT
-  &tdCaps        &kp Z        &kp X           &kp C                 &kp V      &kp B        &kp N             &kp M     &kp COMMA      &kp DOT        &kp FSLH  &kp ESCAPE
-                                     &lt LAYER2 DEL  &lt LAYER1 BACKSPACE  &kp SPACE    &kp ENTER  &lt LAYER1 SPACE     &lt 3 TAB
+&kp GRAVE        &kp Q        &kp W           &kp E             &kp R      &kp T            &kp Y             &kp U         &kp I        &kp O           &kp P    &kp BSLH
+&kp LCTRL  &bhm LGUI A  &bhm LALT S    &bhm LCTRL D     &bhm LSHIFT F      &kp G            &kp H     &bhm LSHIFT J  &bhm LCTRL K  &bhm LALT L  &bhm LGUI SEMI     &kp SQT
+  &tdCaps        &kp Z        &kp X           &kp C             &kp V      &kp B            &kp N             &kp M     &kp COMMA      &kp DOT        &kp FSLH  &kp ESCAPE
+                                     &lt LAYER2 DEL  &lt LAYER1 SPACE  &kp ENTER    &kp BACKSPACE  &lt LAYER1 SPACE     &lt 3 TAB
             >;
         };
 
