@@ -15,7 +15,7 @@
 #define LAYER3  3
 #define LAYER4  4
 #define LAYER5  5
-#define U_MOUSE_MOVE_MAX 1400                     /* <--- New max speed setting (default: 600) */
+#define U_MOUSE_MOVE_MAX 1200                     /* <--- New max speed setting (default: 600) */
 
 #undef MOVE_UP
 #undef MOVE_DOWN
@@ -89,7 +89,7 @@
             tapping-term-ms = <200>;
             bindings =
                 <&kp GRAVE>,
-                <&tg 4>;
+                <&tog 4>;
         };
     };
 
