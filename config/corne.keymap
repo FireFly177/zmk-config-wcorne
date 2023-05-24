@@ -82,7 +82,7 @@
                 <&kp LSHIFT>,
                 <&kp CAPSLOCK>;
         };
-        tdCaps: tap_dance_1 {
+        tdGame: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_1";
             #binding-cells = <0>;
