@@ -111,7 +111,16 @@
 &kp GRAVE        &kp Q        &kp W         &kp E          &kp R      &kp T            &kp Y          &kp U         &kp I        &kp O           &kp P    &kp BSLH
   &kp TAB  &bhm LGUI A  &bhm LALT S  &bhm LCTRL D  &bhm LSHIFT F      &kp G            &kp H  &bhm LSHIFT J  &bhm LCTRL K  &bhm LALT L  &bhm LGUI SEMI     &kp SQT
   &tdCaps        &kp Z        &kp X         &kp C          &kp V      &kp B            &kp N          &kp M     &kp COMMA      &kp DOT        &kp FSLH  &kp DELETE
-                                     &lt 2 ESCAPE    &lt 1 SPACE  &kp ENTER    &kp BACKSPACE    &lt 1 SPACE     &lt 3 TAB
+                                     &lt 3 ESCAPE    &lt 2 SPACE  &kp ENTER    &kp BACKSPACE    &lt 2 SPACE     &lt 4 TAB
+            >;
+        };
+
+        LAYER4 {
+            bindings = <
+     &kp GRAVE  &kp Q  &kp W       &kp E      &kp R      &kp T            &kp Y      &kp U      &kp I       &kp O          &kp P  &kp BACKSLASH
+       &kp TAB  &kp A  &kp S       &kp D      &kp F      &kp G            &kp H      &kp J      &kp K       &kp L  &kp SEMICOLON        &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X       &kp C      &kp V      &kp B            &kp N      &kp M  &kp COMMA  &kp PERIOD      &kp SLASH     &kp DELETE
+                              &kp ESCAPE  &kp SPACE  &kp ENTER    &kp BACKSPACE  &kp SPACE  &lt 4 TAB
             >;
         };
 
@@ -155,17 +164,8 @@
             bindings = <
     &kp F1        &kp F2        &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
     &trans        &trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans   &trans   &trans   &trans
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans    &trans  &trans  &trans   &trans   &tog 0   &tog 4
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans    &trans  &trans  &trans   &trans   &tog 0   &tog 1
                                         &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        LAYER4 {
-            bindings = <
-     &kp GRAVE  &kp Q  &kp W       &kp E      &kp R      &kp T            &kp Y      &kp U      &kp I       &kp O          &kp P  &kp BACKSLASH
-       &kp TAB  &kp A  &kp S       &kp D      &kp F      &kp G            &kp H      &kp J      &kp K       &kp L  &kp SEMICOLON        &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X       &kp C      &kp V      &kp B            &kp N      &kp M  &kp COMMA  &kp PERIOD      &kp SLASH     &kp DELETE
-                              &kp ESCAPE  &kp SPACE  &kp ENTER    &kp BACKSPACE  &kp SPACE  &lt 3 TAB
             >;
         };
     };
